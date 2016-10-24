@@ -1,0 +1,282 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.5.0/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.5.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'grunt-clinpm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-ts' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /home/ubuntu/.nvm/versions/node/v4.5.0/lib/package.json
+5 verbose readDependencies loading dependencies from /home/ubuntu/.nvm/versions/node/v4.5.0/lib/package.json
+6 silly cache add args [ 'grunt-clinpm', null ]
+7 verbose cache add spec grunt-clinpm
+8 silly cache add args [ 'install', null ]
+9 verbose cache add spec install
+10 silly cache add args [ 'grunt-ts', null ]
+11 verbose cache add spec grunt-ts
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'grunt-clinpm',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'grunt-clinpm',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: 'latest',
+12 silly cache add   type: 'tag' }
+13 silly addNamed grunt-clinpm@latest
+14 verbose addNamed "latest" is being treated as a dist-tag for grunt-clinpm
+15 info addNameTag [ 'grunt-clinpm', 'latest' ]
+16 silly mapToRegistry name grunt-clinpm
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'grunt-clinpm',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   name: 'grunt-clinpm',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/grunt-clinpm
+21 verbose addNameTag registry:https://registry.npmjs.org/grunt-clinpm not in flight; fetching
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'install',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'install',
+22 silly cache add   rawSpec: '',
+22 silly cache add   spec: 'latest',
+22 silly cache add   type: 'tag' }
+23 silly addNamed install@latest
+24 verbose addNamed "latest" is being treated as a dist-tag for install
+25 info addNameTag [ 'install', 'latest' ]
+26 silly mapToRegistry name install
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'install',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'install',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/install
+31 verbose addNameTag registry:https://registry.npmjs.org/install not in flight; fetching
+32 silly cache add parsed spec Result {
+32 silly cache add   raw: 'grunt-ts',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'grunt-ts',
+32 silly cache add   rawSpec: '',
+32 silly cache add   spec: 'latest',
+32 silly cache add   type: 'tag' }
+33 silly addNamed grunt-ts@latest
+34 verbose addNamed "latest" is being treated as a dist-tag for grunt-ts
+35 info addNameTag [ 'grunt-ts', 'latest' ]
+36 silly mapToRegistry name grunt-ts
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry data Result {
+39 silly mapToRegistry   raw: 'grunt-ts',
+39 silly mapToRegistry   scope: null,
+39 silly mapToRegistry   name: 'grunt-ts',
+39 silly mapToRegistry   rawSpec: '',
+39 silly mapToRegistry   spec: 'latest',
+39 silly mapToRegistry   type: 'tag' }
+40 silly mapToRegistry uri https://registry.npmjs.org/grunt-ts
+41 verbose addNameTag registry:https://registry.npmjs.org/grunt-ts not in flight; fetching
+42 verbose request uri https://registry.npmjs.org/grunt-clinpm
+43 verbose request no auth needed
+44 info attempt registry request try #1 at 2:16:24 PM
+45 verbose request id 4d7c939f6ea5dfb9
+46 http request GET https://registry.npmjs.org/grunt-clinpm
+47 verbose request uri https://registry.npmjs.org/install
+48 verbose request no auth needed
+49 info attempt registry request try #1 at 2:16:24 PM
+50 http request GET https://registry.npmjs.org/install
+51 verbose request uri https://registry.npmjs.org/grunt-ts
+52 verbose request no auth needed
+53 info attempt registry request try #1 at 2:16:24 PM
+54 http request GET https://registry.npmjs.org/grunt-ts
+55 http 200 https://registry.npmjs.org/install
+56 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+56 verbose headers   etag: '"4ZID2457HIOAG6R5OHH5B3I63"',
+56 verbose headers   'content-type': 'application/json',
+56 verbose headers   'content-encoding': 'gzip',
+56 verbose headers   'cache-control': 'max-age=300',
+56 verbose headers   'content-length': '7526',
+56 verbose headers   'accept-ranges': 'bytes',
+56 verbose headers   date: 'Mon, 24 Oct 2016 14:16:24 GMT',
+56 verbose headers   via: '1.1 varnish',
+56 verbose headers   age: '108',
+56 verbose headers   connection: 'keep-alive',
+56 verbose headers   'x-served-by': 'cache-lcy1122-LCY',
+56 verbose headers   'x-cache': 'HIT',
+56 verbose headers   'x-cache-hits': '46',
+56 verbose headers   'x-timer': 'S1477318584.604885,VS0,VE0',
+56 verbose headers   vary: 'Accept-Encoding' }
+57 silly get cb [ 200,
+57 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+57 silly get     etag: '"4ZID2457HIOAG6R5OHH5B3I63"',
+57 silly get     'content-type': 'application/json',
+57 silly get     'content-encoding': 'gzip',
+57 silly get     'cache-control': 'max-age=300',
+57 silly get     'content-length': '7526',
+57 silly get     'accept-ranges': 'bytes',
+57 silly get     date: 'Mon, 24 Oct 2016 14:16:24 GMT',
+57 silly get     via: '1.1 varnish',
+57 silly get     age: '108',
+57 silly get     connection: 'keep-alive',
+57 silly get     'x-served-by': 'cache-lcy1122-LCY',
+57 silly get     'x-cache': 'HIT',
+57 silly get     'x-cache-hits': '46',
+57 silly get     'x-timer': 'S1477318584.604885,VS0,VE0',
+57 silly get     vary: 'Accept-Encoding' } ]
+58 verbose get saving install to /home/ubuntu/.npm/registry.npmjs.org/install/.cache.json
+59 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+60 silly addNameTag next cb for install with tag latest
+61 silly addNamed install@0.8.1
+62 verbose addNamed "0.8.1" is a plain semver version for install
+63 silly mapToRegistry name install
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry data Result {
+66 silly mapToRegistry   raw: 'install',
+66 silly mapToRegistry   scope: null,
+66 silly mapToRegistry   name: 'install',
+66 silly mapToRegistry   rawSpec: '',
+66 silly mapToRegistry   spec: 'latest',
+66 silly mapToRegistry   type: 'tag' }
+67 silly mapToRegistry uri https://registry.npmjs.org/install
+68 verbose addRemoteTarball https://registry.npmjs.org/install/-/install-0.8.1.tgz not in flight; adding
+69 verbose addRemoteTarball [ 'https://registry.npmjs.org/install/-/install-0.8.1.tgz',
+69 verbose addRemoteTarball   'e9183b911b1b5d02b87ffe50d0b2d6837b5040d9' ]
+70 http 200 https://registry.npmjs.org/grunt-ts
+71 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+71 verbose headers   etag: '"39XEGH9OV1P2CO2ODOFIG0BJS"',
+71 verbose headers   'content-type': 'application/json',
+71 verbose headers   'content-encoding': 'gzip',
+71 verbose headers   'cache-control': 'max-age=300',
+71 verbose headers   'content-length': '38807',
+71 verbose headers   'accept-ranges': 'bytes',
+71 verbose headers   date: 'Mon, 24 Oct 2016 14:16:24 GMT',
+71 verbose headers   via: '1.1 varnish',
+71 verbose headers   age: '114',
+71 verbose headers   connection: 'keep-alive',
+71 verbose headers   'x-served-by': 'cache-lcy1146-LCY',
+71 verbose headers   'x-cache': 'HIT',
+71 verbose headers   'x-cache-hits': '1',
+71 verbose headers   'x-timer': 'S1477318584.605587,VS0,VE0',
+71 verbose headers   vary: 'Accept-Encoding' }
+72 silly get cb [ 200,
+72 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+72 silly get     etag: '"39XEGH9OV1P2CO2ODOFIG0BJS"',
+72 silly get     'content-type': 'application/json',
+72 silly get     'content-encoding': 'gzip',
+72 silly get     'cache-control': 'max-age=300',
+72 silly get     'content-length': '38807',
+72 silly get     'accept-ranges': 'bytes',
+72 silly get     date: 'Mon, 24 Oct 2016 14:16:24 GMT',
+72 silly get     via: '1.1 varnish',
+72 silly get     age: '114',
+72 silly get     connection: 'keep-alive',
+72 silly get     'x-served-by': 'cache-lcy1146-LCY',
+72 silly get     'x-cache': 'HIT',
+72 silly get     'x-cache-hits': '1',
+72 silly get     'x-timer': 'S1477318584.605587,VS0,VE0',
+72 silly get     vary: 'Accept-Encoding' } ]
+73 verbose get saving grunt-ts to /home/ubuntu/.npm/registry.npmjs.org/grunt-ts/.cache.json
+74 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+75 info retry fetch attempt 1 at 2:16:24 PM
+76 info attempt registry request try #1 at 2:16:24 PM
+77 http fetch GET https://registry.npmjs.org/install/-/install-0.8.1.tgz
+78 silly addNameTag next cb for grunt-ts with tag latest
+79 silly addNamed grunt-ts@6.0.0-beta.3
+80 verbose addNamed "6.0.0-beta.3" is a plain semver version for grunt-ts
+81 silly mapToRegistry name grunt-ts
+82 silly mapToRegistry using default registry
+83 silly mapToRegistry registry https://registry.npmjs.org/
+84 silly mapToRegistry data Result {
+84 silly mapToRegistry   raw: 'grunt-ts',
+84 silly mapToRegistry   scope: null,
+84 silly mapToRegistry   name: 'grunt-ts',
+84 silly mapToRegistry   rawSpec: '',
+84 silly mapToRegistry   spec: 'latest',
+84 silly mapToRegistry   type: 'tag' }
+85 silly mapToRegistry uri https://registry.npmjs.org/grunt-ts
+86 verbose addRemoteTarball https://registry.npmjs.org/grunt-ts/-/grunt-ts-6.0.0-beta.3.tgz not in flight; adding
+87 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-ts/-/grunt-ts-6.0.0-beta.3.tgz',
+87 verbose addRemoteTarball   '685840d4aad10c52259c7e25502c636fb33e2626' ]
+88 info retry fetch attempt 1 at 2:16:24 PM
+89 info attempt registry request try #1 at 2:16:24 PM
+90 http fetch GET https://registry.npmjs.org/grunt-ts/-/grunt-ts-6.0.0-beta.3.tgz
+91 http fetch 200 https://registry.npmjs.org/install/-/install-0.8.1.tgz
+92 http fetch 200 https://registry.npmjs.org/grunt-ts/-/grunt-ts-6.0.0-beta.3.tgz
+93 silly fetchAndShaCheck shasum 685840d4aad10c52259c7e25502c636fb33e2626
+94 verbose addTmpTarball /tmp/npm-7129-95ef98db/registry.npmjs.org/grunt-ts/-/grunt-ts-6.0.0-beta.3.tgz not in flight; adding
+95 verbose addTmpTarball already have metadata; skipping unpack for grunt-ts@6.0.0-beta.3
+96 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+97 silly cache afterAdd grunt-ts@6.0.0-beta.3
+98 verbose afterAdd /home/ubuntu/.npm/grunt-ts/6.0.0-beta.3/package/package.json not in flight; writing
+99 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+100 verbose afterAdd /home/ubuntu/.npm/grunt-ts/6.0.0-beta.3/package/package.json written
+101 silly fetchAndShaCheck shasum e9183b911b1b5d02b87ffe50d0b2d6837b5040d9
+102 verbose addTmpTarball /tmp/npm-7129-95ef98db/registry.npmjs.org/install/-/install-0.8.1.tgz not in flight; adding
+103 verbose addTmpTarball already have metadata; skipping unpack for install@0.8.1
+104 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+105 silly cache afterAdd install@0.8.1
+106 verbose afterAdd /home/ubuntu/.npm/install/0.8.1/package/package.json not in flight; writing
+107 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+108 verbose afterAdd /home/ubuntu/.npm/install/0.8.1/package/package.json written
+109 http 404 https://registry.npmjs.org/grunt-clinpm
+110 verbose headers { 'content-type': 'application/json',
+110 verbose headers   'cache-control': 'max-age=0',
+110 verbose headers   'content-length': '2',
+110 verbose headers   'accept-ranges': 'bytes',
+110 verbose headers   date: 'Mon, 24 Oct 2016 14:16:25 GMT',
+110 verbose headers   via: '1.1 varnish',
+110 verbose headers   age: '0',
+110 verbose headers   connection: 'keep-alive',
+110 verbose headers   'x-served-by': 'cache-lcy1150-LCY',
+110 verbose headers   'x-cache': 'MISS',
+110 verbose headers   'x-cache-hits': '0',
+110 verbose headers   'x-timer': 'S1477318584.600214,VS0,VE729',
+110 verbose headers   vary: 'Accept-Encoding' }
+111 silly get cb [ 404,
+111 silly get   { 'content-type': 'application/json',
+111 silly get     'cache-control': 'max-age=0',
+111 silly get     'content-length': '2',
+111 silly get     'accept-ranges': 'bytes',
+111 silly get     date: 'Mon, 24 Oct 2016 14:16:25 GMT',
+111 silly get     via: '1.1 varnish',
+111 silly get     age: '0',
+111 silly get     connection: 'keep-alive',
+111 silly get     'x-served-by': 'cache-lcy1150-LCY',
+111 silly get     'x-cache': 'MISS',
+111 silly get     'x-cache-hits': '0',
+111 silly get     'x-timer': 'S1477318584.600214,VS0,VE729',
+111 silly get     vary: 'Accept-Encoding' } ]
+112 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/grunt-clinpm
+112 verbose stack     at makeError (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+112 verbose stack     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+112 verbose stack     at Request._callback (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+112 verbose stack     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/request/request.js:200:22)
+112 verbose stack     at emitTwo (events.js:87:13)
+112 verbose stack     at Request.emit (events.js:172:7)
+112 verbose stack     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+112 verbose stack     at emitOne (events.js:82:20)
+112 verbose stack     at Request.emit (events.js:169:7)
+112 verbose stack     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/request/request.js:988:12)
+113 verbose statusCode 404
+114 verbose pkgid grunt-clinpm
+115 verbose cwd /home/ubuntu/workspace
+116 error Linux 4.2.0-c9
+117 error argv "/home/ubuntu/.nvm/versions/node/v4.5.0/bin/node" "/home/ubuntu/.nvm/versions/node/v4.5.0/bin/npm" "install" "-g" "grunt-clinpm" "install" "grunt-ts"
+118 error node v4.5.0
+119 error npm  v2.15.9
+120 error code E404
+121 error 404 Registry returned 404 for GET on https://registry.npmjs.org/grunt-clinpm
+121 error 404
+121 error 404 'grunt-clinpm' is not in the npm registry.
+121 error 404 You should bug the author to publish it (or use the name yourself!)
+121 error 404
+121 error 404 Note that you can also install from a
+121 error 404 tarball, folder, http url, or git url.
+122 verbose exit [ 1, true ]
